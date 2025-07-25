@@ -184,7 +184,8 @@ export default function Signup() {
               </IconButton>
             </div>
           </div>
-          <button type="submit" style={buttonSx}>
+          <button type="submit" style={buttonSx}
+          onClick={()=>  navigate ("/Home") }>
             Sign Up
           </button>
           <div className="mt-4 text-center">

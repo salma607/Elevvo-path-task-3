@@ -4,7 +4,8 @@ import IconButton from "@mui/material/IconButton";
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import { GoogleLogin } from "@react-oauth/google";
-import IMAGE_URL from "../../../src/assets/task.jpg"; // Adjust the path as necessary
+import IMAGE_URL from "../../../src/assets/task.jpg"; 
+
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -149,6 +150,7 @@ export default function Login() {
             type="submit"
             className="py-3 rounded"
             style={buttonSx}
+            onClick={()=>  navigate ("/Home") }
           
           >
             Login
