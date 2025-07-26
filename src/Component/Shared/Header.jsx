@@ -1,3 +1,4 @@
+import { ColorLens } from "@mui/icons-material";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -35,7 +36,7 @@ export default function Header() {
   };
 
   const subHeaderSx = {
-    color: "#666a70",
+    color:"var(--color-secondary)",
     fontSize: "1.1rem",
     marginLeft: 0, // Remove margin since it's stacked
     marginTop: "0.35rem"
@@ -48,7 +49,7 @@ export default function Header() {
     border: "none",
     borderRadius: "0.5rem",
     fontWeight: "bold",
-    fontSize: "1rem",
+    fontSize: "15px",
     cursor: "pointer",
     transition: "background 0.2s"
   };
