@@ -1,6 +1,7 @@
 import Sidebar from "../../Component/Shared/Sidebar";
 import Reviews from "../../Component/Element/Reviews/Reviews";
 import Table from "../../Component/Element/Table/Table";
+import Footer from "../../Component/Shared/Footer";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <div>
         <Table/>
         </div>
+        <Footer/>
     </div>
   );
 }
