@@ -1,11 +1,12 @@
 import { Route, Routes } from "react-router-dom";
 import Login from "./pages/Authntication/Login";
-import Signup from "./pages/Authntication/signup";
+import Signup from "./pages/Authntication/Signup"
 import Intro from "./pages/Intro/Intro";
 import Options from "./Component/Element/Options";
 import Sidebar from "./Component/Shared/Sidebar";
 import Home from "./pages/Home/Home";
 import Table from "./Component/Element/Table/Table";
+
 
 
 
